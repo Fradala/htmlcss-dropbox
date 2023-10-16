@@ -23,6 +23,7 @@ header{
     background-color: blue;
     color: white;
     padding: 2px 10px 2px 10px;
+    margin-left: 5px;
 }
 
 .brand{
@@ -38,6 +39,10 @@ ul{
 
 .li{
     padding-left: 10px;
+}
+
+.info-destra{
+    display: flex;
 }
 
 #jumbo{
@@ -215,10 +220,21 @@ hr{
 .clienti{
     width: 100%;
     margin-top: 40px;
+    flex-wrap: nowrap;
     
 }
 
 .tre-quadrati{
-    width: calc(100% / 3);
+    width: calc(100vw / 3);
     border: 1px solid lightgray;
+    height: calc(100vw / 3);
+    display: flex;
+}
+
+.quadrato{
+    width: 50%;
+}
+
+.foto-marca{
+    width: 100%;
 }
