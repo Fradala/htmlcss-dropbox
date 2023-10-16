@@ -91,9 +91,7 @@ ul{
     margin-left: 30px;
 }
 
-.tre-colonne{
-    
-}
+
 
 .colonna{
     width: calc((100% / 3) - .5rem);
@@ -109,7 +107,8 @@ ul{
 
 .testo-colonna{
     font-size: 10px;
-    margin: 10px 0px;
+    margin: 10px 5px;
+  
 }
 
 h3{
@@ -124,6 +123,10 @@ h3{
 
 .utente{
     text-align: center;
+}
+
+.fa-solid .fa-user{
+    margin: 0px 5px;
 }
 
 span{
@@ -175,4 +178,47 @@ hr{
 .bottone-partner{
     margin: 10px 0px;
     padding: 2px 8px;
+}
+
+.sei-riquadri{
+    width: 60%;
+    margin: 50px auto;
+}
+
+.riquadro{
+    width: calc((100% / 3) - .5rem);
+    margin:  2rem .25rem;  
+}
+
+.cinque-persone{
+    width: 100%;
+}
+
+.titolo-sei-ri{
+    font-size: 15px;
+}
+
+.testo-sei-ri{
+    font-size: 10px;
+}
+
+.piu-di-500{
+    width: 60%;
+    margin: auto;
+}
+
+.di-piu{
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+.clienti{
+    width: 100%;
+    margin-top: 40px;
+    
+}
+
+.tre-quadrati{
+    width: calc(100% / 3);
+    border: 1px solid lightgray;
 }
