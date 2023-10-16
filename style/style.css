@@ -41,24 +41,35 @@ ul{
 }
 
 #jumbo{
-    background-color: aqua;
+    background-color: rgb(177, 233, 233);
     width: 100%;
     
 }
 
 .jumbotron{
     width: 80%;
-    border: 1px solid black;
     margin: 0 auto;
+}
+
+.titolo{
+    font-size: 40px;
 }
 
 .piccola-colonna{
     width: 30%;
-    border: 1px solid black;
     padding: 5px 10px 5px 0px;
     font-size: 10px;
+    margin-top: 20px;
 }
 
 .jum{
     margin: 10px 0px;
+}
+
+.grande-colonna{
+    width: 70%;
+}
+.interfaccia{
+    width: 100%;
+    margin-top: 20px;
 }
