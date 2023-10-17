@@ -124,6 +124,7 @@ ul{
     color: black;
     font-size: 10px;
     margin: 20px 15px;
+    font-size: 15px;
 }
 
 #Fatturazione-annuale{
@@ -224,6 +225,12 @@ hr{
     padding: 2px 8px;
 }
 
+.titolo-sei-riquadri{
+    margin: 70px auto;
+    width: 60%;
+    font-weight: 600;
+}
+
 .sei-riquadri{
     width: 60%;
     margin: 50px auto;
@@ -240,10 +247,12 @@ hr{
 
 .titolo-sei-ri{
     font-size: 15px;
+    font-weight: 600;
 }
 
 .testo-sei-ri{
-    font-size: 10px;
+    font-size: 15px;
+    padding: 2px 17px;
 }
 
 .piu-di-500{
@@ -251,14 +260,18 @@ hr{
     margin: auto;
 }
 
+.titolo-di-piu{
+    font-weight: 600;
+}
+
 .di-piu{
-    font-size: 10px;
-    margin-top: 20px;
+    font-size: 15px;
+    margin-top: 40px;
 }
 
 .clienti{
     width: 100%;
-    margin-top: 40px;
+    margin-top: 120px;
     flex-wrap: nowrap;
     
 }
@@ -280,6 +293,26 @@ hr{
 
 .foto-marca{
     width: 100%;
-    padding: 20px;
+    padding: 50px;
+    
+}
+
+.rett-centrale{
+    width: 100%;
+}
+
+.foto-marca-centrale{
+    padding: 20px 5px 10px 5px;
+    width: 100%;
+    padding: 50px;
+}
+
+.porta-azienda{
+    background-color: rgb(144, 208, 245);
+    width: 100%;
+   
+}
+
+.porta-azienda-scritto{
     
 }
