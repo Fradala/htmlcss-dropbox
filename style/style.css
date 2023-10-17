@@ -328,7 +328,7 @@ hr{
 .foto-marca{
     width: 100%;
     padding: 50px;
-    filter: 
+    filter: invert(1)
    
     
 }
