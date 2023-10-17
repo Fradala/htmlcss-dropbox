@@ -17,12 +17,20 @@ header{
 .contenitore-header{
     align-items: center;
     justify-content: space-between;
+    padding: 10px;
+}
+
+.bottone-inizio{
+    background-color: blue;
+    color: white;
+    margin-left: 5px;
+    padding: 2px 5px;
 }
 
 .bottone{
     background-color: blue;
     color: white;
-    padding: 2px 10px 2px 10px;
+    padding:16px 11px 20px 25px;;
     margin-left: 5px;
 }
 
@@ -46,21 +54,22 @@ ul{
 }
 
 #jumbo{
-    background-color: rgb(177, 233, 233);
+    background-color: rgb(144, 208, 245);
     width: 100%;
     
 }
 
 .jumbotron{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     top: 30px;
     position: relative;
 }
 
 .titolo{
-    font-size: 40px;
-    font-weight: 800;
+    padding-top: 23px;
+    font-size: 50px;
+    font-weight: 900;
 }
 
 .titolo-checkbox{
@@ -75,8 +84,22 @@ ul{
     margin-top: 20px;
 }
 
-.jum{
-    margin: 10px 0px;
+.testo-colonna-piccola{
+    margin: 2px 2px 10px 2px;
+    font-size: 1rem;
+}
+
+.testo-colonna-piccola-basso{
+    margin: 19px 12px 57px 2px;
+    font-size: 1rem;
+}
+
+.bottone-jum{
+    padding: 7px 24px 6px 24px;
+    background-color: blue;
+    color: white;
+    margin: 45px 0px 32px;
+    font-size: 15px;
 }
 
 .grande-colonna{
@@ -88,7 +111,7 @@ ul{
 }
 
 .contenitore{
-    width: 60%;
+    width: 70%;
     margin: auto;
     padding-top: 20px;
 }
@@ -96,7 +119,7 @@ ul{
 .check{
     color: black;
     font-size: 10px;
-    margin-top: 20px;
+    margin: 20px 10px;
 }
 
 #Fatturazione-annuale{
@@ -106,8 +129,8 @@ ul{
 
 
 .colonna{
-    width: calc((100% / 3) - .5rem);
-    margin:  2rem .25rem;
+    width: calc((100% / 3) - 2rem);
+    margin:  2rem 1rem;
     border: 1px solid lightgray;
     
 }
@@ -119,18 +142,18 @@ ul{
 
 .testo-colonna{
     font-size: 10px;
-    margin: 10px 5px;
-  
+    margin: 15px 19px;
 }
 
 h3{
-    margin: 20px auto;
+    margin: 19px;
+    font-weight: 600;
 }
 
 .bottone-colonne{
-    padding: 6px 16px;
+    padding: 6px 25px 6px 25px;
     font-size: 10px;
-    margin: 10px 2px 10px 2px;
+    margin: 20px 16px 21px 33px;
 }
 
 .utente{
@@ -141,14 +164,19 @@ h3{
     margin: 0px 5px;
 }
 
+.p-grigia{
+    margin: 0px 19px;
+}
+
 span{
     color: blue;
     text-decoration: underline ;
 }
 
 .titoletto{
-     font-size: 13px;
-     margin: 10px 0px;
+    font-size: 13px;
+    margin: 27px 19px;
+    font-weight: bold;
 }
 
 hr{
@@ -188,7 +216,7 @@ hr{
 }
 
 .bottone-partner{
-    margin: 10px 0px;
+    margin: 10px 18px;
     padding: 2px 8px;
 }
 
