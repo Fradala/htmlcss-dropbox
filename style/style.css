@@ -54,10 +54,17 @@ ul{
 .jumbotron{
     width: 80%;
     margin: 0 auto;
+    top: 30px;
+    position: relative;
 }
 
 .titolo{
     font-size: 40px;
+    font-weight: 800;
+}
+
+.titolo-checkbox{
+    margin-top: 30px;
 }
 
 .piccola-colonna{
@@ -235,6 +242,12 @@ hr{
     width: 50%;
 }
 
+.sfondo-quadrato{
+    background-color: red;
+}
+
 .foto-marca{
     width: 100%;
+    padding: 20px;
+    
 }
