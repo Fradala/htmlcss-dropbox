@@ -114,6 +114,17 @@ ul{
     margin-top: 20px;
 }
 
+.azienda{
+    justify-content: space-between;
+}
+
+.bottone-vendite{
+    margin: 34px 61px 30px 25px;
+    background-color: blue;
+    color: white;
+    padding: 6px 14px 6px 15px;
+}
+
 .contenitore{
     width: 70%;
     margin: auto;
@@ -288,27 +299,45 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: yellow;
 }
 
-.sfondo-quadrato{
+.verde{
+    background-color: green;
+}
+
+.rosso{
     background-color: red;
 }
+
+.blu{
+    background-color: blue;
+}
+
+
+
 
 .foto-marca{
     width: 100%;
     padding: 50px;
+    filter: 
    
     
 }
 
 .rett-centrale{
     width: 100%;
+    background-color: rgb(241, 241, 241);
 }
 
 .foto-marca-centrale{
-    padding: 20px 5px 10px 5px;
-    width: 100%;
-    padding: 50px;
+    width: 50%;
+    padding: 21px;
+}
+
+.testo-quadrato-centrale{
+    font-size: 13px;
+    margin: 63px 32px 37px 33px;
 }
 
 .porta-azienda{
@@ -317,6 +346,7 @@ hr{
    
 }
 
-.porta-azienda-scritto{
-
+.titolo-porta-azienda{
+    
 }
+
