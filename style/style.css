@@ -102,6 +102,10 @@ ul{
     font-size: 15px;
 }
 
+.colonne{
+    margin-top: 20px;
+}
+
 .grande-colonna{
     width: 70%;
 }
@@ -119,7 +123,7 @@ ul{
 .check{
     color: black;
     font-size: 10px;
-    margin: 20px 10px;
+    margin: 20px 15px;
 }
 
 #Fatturazione-annuale{
@@ -141,7 +145,7 @@ ul{
 }
 
 .testo-colonna{
-    font-size: 10px;
+    
     margin: 15px 19px;
 }
 
