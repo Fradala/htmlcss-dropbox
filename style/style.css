@@ -296,14 +296,22 @@ hr{
 
 .quadrato{
     width: 50%;
+    height: 50%;
     display: flex;
     align-items: center;
-    justify-content: center;
     background-color: yellow;
 }
 
 .verde{
-    background-color: green;
+    background-color: rgb(178, 248, 178);
+}
+
+.grigio{
+    background-color: rgb(231, 231, 231);
+}
+
+.bordeaux{
+    background-color: rgb(146, 0, 29);
 }
 
 .rosso{
@@ -343,10 +351,34 @@ hr{
 .porta-azienda{
     background-color: rgb(144, 208, 245);
     width: 100%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    padding: 72px;
+   
+}
+
+.porta-azienda-scritto{
+    width: 60%;
    
 }
 
 .titolo-porta-azienda{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(146, 0, 29);
+    padding: 1px 12px 5px 224px;
+}
+
+.bottone-porta{
+    width: 40%;
+}
+
+.bottone-porta-azienda{
+    background-color: white;
+    color: black;
+    padding: 9px 12px 6px 19px;
+    margin-top: 40px;
     
 }
 
