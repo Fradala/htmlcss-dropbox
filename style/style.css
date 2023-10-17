@@ -382,3 +382,8 @@ hr{
     
 }
 
+.riga{
+    border-bottom: 1px solid grey;
+    width: 90px;
+    margin-left: 18px;
+}
