@@ -23,7 +23,7 @@ header{
 .bottone-inizio{
     background-color: blue;
     color: white;
-    margin-left: 5px;
+    margin-left: 12px;
     padding: 2px 5px;
 }
 
@@ -73,7 +73,12 @@ ul{
 }
 
 .titolo-checkbox{
-    margin-top: 30px;
+    margin-top: 54px;
+    font-size: 20px;
+}
+
+.tre-colonne{
+    margin: 0 -1rem;
 }
 
 .piccola-colonna{
@@ -134,7 +139,7 @@ ul{
 .check{
     color: black;
     font-size: 10px;
-    margin: 20px 15px;
+    margin: 45px 0px 27px;
     font-size: 15px;
 }
 
@@ -304,6 +309,7 @@ hr{
 
 .verde{
     background-color: rgb(178, 248, 178);
+    border: 1rem solid rgb(204, 242, 204);
 }
 
 .grigio{
@@ -377,7 +383,7 @@ hr{
 .bottone-porta-azienda{
     background-color: white;
     color: black;
-    padding: 9px 12px 6px 19px;
+    padding: 9px 12px 9px 19px;
     margin-top: 40px;
     
 }
@@ -386,4 +392,77 @@ hr{
     border-bottom: 1px solid grey;
     width: 90px;
     margin-left: 18px;
+}
+
+.contenitore-domende{
+    width: 100%;
+    padding-bottom: 60px;
+    
+}
+
+.domande{
+    width: 60%;
+    margin: auto;
+}
+
+.titolo-domande{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 0px;
+    padding-top: 50px;
+}
+
+.domanda{
+    padding: 24px 2px 24px;
+    font-size: 10px;
+    
+}
+
+.testo-domanda{
+    font-size: 13px;
+}
+
+.bordo{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.domanda-f{
+    justify-content: space-between;
+}
+.fa-solid .fa-chevron-down{
+    margin-right: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+
+.cinque-colonne{
+    width: 70%;
+    flex-wrap: nowrap;
+    padding: 40px 0px;
+    margin: auto;
+    
+}
+
+.colonne-footer{
+    
+    padding: 13px 12px 5px 16px;
+    border: 1px solid white;
+    width: calc(100% / 5);
+}
+
+.titolo-footer{
+    font-weight: 600;
+    margin-bottom: 17px;
+}
+
+.testo-footer{
+    font-size: 13px;
+    margin: 5px 0px 5px;
+
 }
