@@ -131,7 +131,7 @@ ul{
 }
 
 .contenitore{
-    width: 70%;
+    width: 60%;
     margin: auto;
     padding-top: 20px;
 }
@@ -370,7 +370,7 @@ hr{
 }
 
 .titolo-porta-azienda{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
     color: rgb(146, 0, 29);
     padding: 1px 12px 5px 224px;
@@ -378,6 +378,7 @@ hr{
 
 .bottone-porta{
     width: 40%;
+    padding: 3px 112px 25px 25px;
 }
 
 .bottone-porta-azienda{
@@ -444,7 +445,7 @@ footer{
 .cinque-colonne{
     width: 70%;
     flex-wrap: nowrap;
-    padding: 40px 0px;
+    padding: 60px 0px;
     margin: auto;
     
 }
@@ -452,17 +453,28 @@ footer{
 .colonne-footer{
     
     padding: 13px 12px 5px 16px;
-    border: 1px solid white;
+    
     width: calc(100% / 5);
 }
 
 .titolo-footer{
     font-weight: 600;
-    margin-bottom: 17px;
+    margin-bottom: 38px;
 }
 
 .testo-footer{
     font-size: 13px;
-    margin: 5px 0px 5px;
+    margin: 15px 0px 5px;
 
+}
+
+.linea-footer{
+    border-bottom: 1px solid white;
+    width: 79px;
+    margin: 70px 0px 30px;
+}
+.fa-solid, .fas  .fa-earth-americas{
+    font-weight: 900;
+    align-items: center;
+    display: flex;
 }
